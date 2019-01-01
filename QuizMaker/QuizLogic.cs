@@ -16,7 +16,7 @@ namespace QuizMaker
         static int choice;
 
         string[] Questions = File.ReadAllLines("C:/FILE/PATH/Questions.txt");
-        string[] Answers = File.ReadAllLines("C:/FILE/PATH/Desktop/Answers.txt");
+        string[] Answers = File.ReadAllLines("C:/FILE/PATH/Answers.txt");
         string[] Choices = File.ReadAllLines("C:/FILE/PATH/Choices.txt");
 
 
